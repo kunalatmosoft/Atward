@@ -178,8 +178,8 @@ NEXT_PUBLIC_APPWRITE_COLLECTIONS_ID=662b70382180ff1c3ff5 */
           <SelectItem value="https://th.bing.com/th/id/OIP.rzpOF9FbaxlXeR8S89ozGQHaHE?rs=1&pid=ImgDetMain">#1</SelectItem>
           <SelectItem value="https://th.bing.com/th/id/OIP.awyiJGoo5CQSV6SLiW25cAHaFP?rs=1&pid=ImgDetMain">#2</SelectItem>
           <SelectItem value="https://th.bing.com/th/id/OIP.SwrhabU8x1ahvQU7Q3xkswHaNK?rs=1&pid=ImgDetMain">#3</SelectItem>
-          <SelectItem value="grapes">Grapes</SelectItem>
-          <SelectItem value="pineapple">Pineapple</SelectItem>
+          // <SelectItem value="grapes">Grapes</SelectItem>
+          // <SelectItem value="pineapple">Pineapple</SelectItem>
         </SelectGroup>
       </SelectContent>
     </Select>
