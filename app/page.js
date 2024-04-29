@@ -68,12 +68,12 @@ const LoginPage = () => {
           <p>Logged in as {loggedInUser.name}</p>
           <Button className="w-half" type="button">
             <Link href="./mail" className="ml-auto inline-block text-sm underline">
-              Let's Get Started!
+              Let&apos; Get Started!
             </Link>
           </Button>
           <Button className="w-half" type="button">
             <Link href="./main" className="ml-auto inline-block text-sm underline">
-              Let's Get Started!
+              Let&apos; Get Started!
             </Link>
           </Button>
         </div>
@@ -157,9 +157,6 @@ const LoginPage = () => {
 };
 
 export default LoginPage;
-
-
-
 
 
 
