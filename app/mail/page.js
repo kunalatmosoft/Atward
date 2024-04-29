@@ -10,11 +10,7 @@ import {
   SelectValue,
 } from "@/components/ui/select"
 import * as React from "react"
-// import {
-//   Avatar,
-//   AvatarFallback,
-//   AvatarImage,
-// } from "@/components/ui/avatar"
+
 import { useEffect, useState } from 'react';
 import { Client, Databases, ID } from 'appwrite';
 import { Label } from "@/components/ui/label"
@@ -153,10 +149,7 @@ NEXT_PUBLIC_APPWRITE_COLLECTIONS_ID=662b70382180ff1c3ff5 */
 <div className="bg-white shadow-md rounded-lg p-4 mb-4">
 <div className="flex items-center space-x-4">
 
-// <Avatar>
-//       <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
-//       <AvatarFallback>CN</AvatarFallback>
-//     </Avatar>
+
          
           <input
             type="text"
