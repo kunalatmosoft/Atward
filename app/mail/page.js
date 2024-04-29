@@ -167,7 +167,7 @@ NEXT_PUBLIC_APPWRITE_COLLECTIONS_ID=662b70382180ff1c3ff5 */
             onChange={(e) => setNewComment(e.target.value)} id="message" />
     </div>
          
-         <Select>
+      {/*   <Select>
       <SelectTrigger className="w-[180px]"   value={newImageURL}
   onChange={(e) => setNewImageURL(e.target.value)}>
         <SelectValue placeholder="Select a fruit" />
@@ -182,8 +182,8 @@ NEXT_PUBLIC_APPWRITE_COLLECTIONS_ID=662b70382180ff1c3ff5 */
           // <SelectItem value="pineapple">Pineapple</SelectItem>
         </SelectGroup>
       </SelectContent>
-    </Select>
-{/* <select
+    </Select> */}
+ <select
   value={newImageURL}
   onChange={(e) => setNewImageURL(e.target.value)}
   className="w-1/3 bg-gray-100 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -192,7 +192,7 @@ NEXT_PUBLIC_APPWRITE_COLLECTIONS_ID=662b70382180ff1c3ff5 */
   <option value="https://th.bing.com/th/id/OIP.rzpOF9FbaxlXeR8S89ozGQHaHE?rs=1&pid=ImgDetMain">#1</option>
   <option value="https://th.bing.com/th/id/OIP.awyiJGoo5CQSV6SLiW25cAHaFP?rs=1&pid=ImgDetMain">#2</option>
   <option value="https://th.bing.com/th/id/OIP.SwrhabU8x1ahvQU7Q3xkswHaNK?rs=1&pid=ImgDetMain">#3</option>
-  </select> */}
+  </select>
   {/* Add more options as needed 
 
 
